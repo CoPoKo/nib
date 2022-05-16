@@ -1,4 +1,4 @@
-# Nib [![npm](https://img.shields.io/npm/v/nib)](https://www.npmjs.com/package/nib) [![build status](https://github.com/stylus/nib/actions/workflows/ci.yml/badge.svg?branch=master)](https://github.com/stylus/nib/actions/workflows/ci.yml)
+# Nib [![npm](https://img.shields.io/npm/v/@copoko/nib)](https://www.npmjs.com/package/@copoko/nib) [![build status](https://github.com/stylus/nib/actions/workflows/ci.yml/badge.svg?branch=master)](https://github.com/stylus/nib/actions/workflows/ci.yml)
 
   Stylus mixins, utilities, components, and gradient image generation. Don't forget to check out the [documentation](http://stylus.github.io/nib).
 
