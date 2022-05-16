@@ -5,7 +5,7 @@
 ## Installation
 
 ```bash
-$ npm install nib
+$ npm install @copoko/nib
 ```
 
  If the image generation features of Nib are desired, such as generating the linear gradient images, install [node-canvas](http://github.com/learnboost/node-canvas):
@@ -21,7 +21,7 @@ $ npm install canvas
 ```javascript
 var connect = require('connect')
   , stylus = require('stylus')
-  , nib = require('nib');
+  , nib = require('@copoko/nib');
 
 var server = connect();
 
@@ -43,15 +43,15 @@ server.use(stylus.middleware({
   To gain access to everything nib has to offer, simply add:
 
   ```css
-  @import 'nib'
+  @import '@copoko/nib'
   ```
 
   Or you may also pick and choose based on the directory structure in `./lib`, for example:
 
   ```css
-  @import 'nib/gradients'
-  @import 'nib/overflow'
-  @import 'nib/normalize'
+  @import '@copoko/nib/gradients'
+  @import '@copoko/nib/overflow'
+  @import '@copoko/nib/normalize'
   ```
 
 _To be continued..._
